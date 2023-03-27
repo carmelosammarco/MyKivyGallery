@@ -1,6 +1,6 @@
 <img src="SRC/Title.png" alt="Title" class="center">
 
-# KivyEx
+# MyKivyGallery
 A repository of Examples with the Kivy framework
 
 ## Anaconda environment installation:
