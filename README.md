@@ -29,8 +29,8 @@ At this point your environment "kivy" should be functional and ready to go!
 
 ## Gallery:
 
-<div id="table" class="center">
-    <table> 
+<div id="table">
+    <table class="center"> 
         <tr>
             <td style="padding:10px">
         	    <a href="https://github.com/carmelosammarco/MyKivyGallery/tree/main/Examples/1-basic"><img src="SRC/media/1-basic.png" width="100"></a>
