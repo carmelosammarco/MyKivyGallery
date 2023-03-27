@@ -1,4 +1,4 @@
-<div style="text-align: center"><img src="SRC/Title.png" width="300" /></div>
+<img src="SRC/Title.png" alt="Title" class="center">
 
 # KivyEx
 A repository of Examples with the Kivy framework
