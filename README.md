@@ -27,9 +27,9 @@ At this point your environment "kivy" should be functional and ready to go!
 
 ---
 
-## Gallery of Examples:
+## Gallery:
 
-<div id="" class="center">
+<div id="table" class="center">
     <table> 
         <tr>
             <td style="padding:10px">
