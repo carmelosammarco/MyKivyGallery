@@ -29,7 +29,7 @@ At this point your environment "kivy" should be functional and ready to go!
 
 ## Gallery:
 
-<div id="table">
+<div id="table" align="center">
     <table  style="margin-left: auto; margin-right: auto;"> 
         <tr>
             <td style="padding:10px">
