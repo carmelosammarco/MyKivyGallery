@@ -19,14 +19,18 @@ conda activate kivy
 pip install kivy
 ```
 
+```
+pip install kivymd
+```
+
 At this point your environment "kivy" should be functional and ready to go!
 
 ---
 
 ## Gallery of Examples:
 
-<div id="">
-    <table>
+<div id="" class="center">
+    <table> 
         <tr>
             <td style="padding:10px">
         	    <a href="https://github.com/carmelosammarco/MyKivyGallery/tree/main/Examples/1-basic"><img src="SRC/media/1-basic.png" width="185"></a>
