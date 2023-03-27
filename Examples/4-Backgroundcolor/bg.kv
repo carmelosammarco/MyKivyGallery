@@ -1,0 +1,36 @@
+#:kivy 1.0
+<Button>   
+    font_size: 32
+    background_normal: ''
+    background_color: (0,0,1,1)
+
+<TextInput>  
+    background_color: (150/255, 150/255, 150/255, 1)
+
+
+##########################################################
+
+<MyBoxLayout>
+    # this overdrive the configuration of Window in main
+    #canvas.before:
+        #Color:
+            #rgba: (1,1,1,1)
+        #Rectangle:
+            #size: self.size
+            #pos: self.pos
+
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        spacing : 30
+        padding: 60
+
+
+        Button:
+            text: "Submit"
+        Button:
+            text: "Clear"
+            background_color: (1,0,0,1)
+
+            

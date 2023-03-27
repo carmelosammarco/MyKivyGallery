@@ -1,0 +1,26 @@
+#:kivy 1.0
+<MyGridLayout>
+    name: name
+    surname: surname
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Name"
+            TextInput:
+                id: name
+                multiline: False
+            
+            Label:
+                text: "Surname"
+            TextInput:
+                id: surname
+                multiline: False
+
+        Button:
+            text: "Print on terminal"
+            font_size: 60
+            on_press : root.press()

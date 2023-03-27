@@ -1,0 +1,21 @@
+#:kivy 1.0
+<MyBoxLayout>
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        Label:
+            id: my_label
+            text: "0%" 
+
+        ProgressBar:
+            id: my_bar
+            value: 0.0
+            min: 0
+            max: 1
+            pos_hint: {'x': 0.1}
+            size_hint_x: 0.8
+        
+        Button:
+            text: "Press ME"
+            on_press: root.press()

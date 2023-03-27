@@ -1,0 +1,32 @@
+#:kivy 1.0
+#:import utils kivy.utils
+<MyGridLayout>
+    name: name
+    surname: surname
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Name"
+            TextInput:
+                id: name
+                multiline: False
+                background_color: utils.get_color_from_hex('#ddc8cb')
+            
+            Label:
+                text: "Surname"
+            TextInput:
+                id: surname
+                multiline: False
+                background_color: utils.get_color_from_hex('#ddc8cb')
+
+        Button:
+            text: "Print on terminal"
+            font_size: 35
+            on_press : root.press()
+            background_normal: ''
+            #background_color: (1,0,0,1)
+            background_color: utils.get_color_from_hex('#fb0526')

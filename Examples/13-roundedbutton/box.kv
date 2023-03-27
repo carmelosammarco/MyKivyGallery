@@ -1,0 +1,32 @@
+#:kivy 1.0
+<MyBoxLayout>
+    BoxLayout:
+        #orientation: "horizontal"
+        orientation: "vertical"
+        size: root.width, root.height
+
+        spacing : 20
+        padding: 50
+
+
+        Button:
+            text: "Push me-1"
+        
+        Button:
+            text: "Push me-2"
+
+        RoundedButton:
+            text: "Push me-3"
+            size_hint: (0.5, 0.5)
+            pos_hint: {'center_x' : 0.5}
+
+<RoundedButton@Button>
+    background_color: (0,0,0,0)
+    background_normal: ""
+    canvas.before:
+        Color: 
+            rgba: (48/255, 84/255, 150/255, 1 )
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [58]
