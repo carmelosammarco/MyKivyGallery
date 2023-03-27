@@ -29,7 +29,7 @@ At this point your environment "kivy" should be functional and ready to go!
     <table>
         <tr>
             <td style="padding:10px">
-        	    <a href=""><img src="SRC/media/1-basic.png" width="185"></a>
+        	    <a href="https://github.com/carmelosammarco/MyKivyGallery/tree/main/Examples/1-basic"><img src="SRC/media/1-basic.png" width="185"></a>
       	    </td>
             <td style="padding:10px">
             	<a href=""><img src="SRC/media/2-BoxLayout.gif" width="185"></a>
